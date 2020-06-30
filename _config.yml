@@ -1,0 +1,16 @@
+---
+title: grimbins
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md']
+
+permalink: pretty
+
+collections:
+  grimbins:
+    output: true
+
+defaults:
+  - scope:
+      path: '_grimbins'
+    values:
+      layout: bin

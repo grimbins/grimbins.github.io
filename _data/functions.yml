@@ -1,0 +1,21 @@
+---
+
+enumerate-users:
+  label: User Enumeration
+  description: Techniques to either guess or confirm valid users in a system. User enumeration is often a web application vulnerability, though it can also be found in any system that requires user authentication.
+
+sql-injection:
+  label: SQL Injection
+  description: Code injection technique, used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution.
+
+fuzzing:
+  label: Fuzzing
+  description: Fuzzing or fuzz testing is an automated technique that involves providing a large variety of input data, hoping to induce an unexpected response.
+
+enum-dirs:
+  label: Directory Enumeration
+  description: Techniques to either guess or confirm valid directories. Directory enumeration is often a web application attack, though it can also be leveraged on any system with a directory structure.
+
+privesc:
+  label: Privilege Escalation
+  description: Privilege escalation involved exploiting a bug, design flaw or misconfiguration to gain elevated access and perform unauthorized actions. For example, escalating from a restrictive shell as user `www-data`, to a session as `root`
